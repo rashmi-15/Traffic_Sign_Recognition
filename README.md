@@ -9,6 +9,7 @@ Steps we follow are :
             4. Build a flask application 
             5. Read inputs from user 
             6. Return outputs to the user
+            
 Some of the important Packages used are : 
             Torch 
             Torchvision 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Traffic Sign Recognition</title>
+</head>
+<body bgcolor="black" text="white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <center>
+                <h1>Upload an image</h1>
+                <hr>
+                <br>
+                <h2>
+                    <form action="{{url_for('get_input')}}" , method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <div class="custom-file">
+                                <label class="custom-file-label" for="image"><font color="lightblue">Select image...</label>
+                                <input type="file" class="custom-file-input" name="image" id="image">
+                            </div>
+                        </div><br>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+                    </font>
+                    </form>
+                    <h2>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
